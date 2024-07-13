@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ai-sdr"
+version = "0.1.0"
+description = ""
+authors = ["Siddharth Balyan <balyan.sid@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.35.13"
+python-dotenv = "^1.0.1"
+ipykernel = "^6.29.5"
+anthropic = "^0.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
